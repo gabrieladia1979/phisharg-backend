@@ -1,0 +1,24 @@
+.git
+.github
+.venv
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+reports/
+data/
+model/*.gguf
+model/*.bin
+model/*.safetensors
+artifacts/hybrid/
+.venv-hybrid/
+*.zip
+.env
+.env.*
+test_*.py
+*_test.py
+README.md
+
+# Temporary model mount used only by the workflow smoke gate.
+.hybrid-model/
+.venv*/
